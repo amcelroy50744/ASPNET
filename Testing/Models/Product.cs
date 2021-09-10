@@ -12,6 +12,7 @@ namespace Testing.Models
 
         public double Price { get; set; }
         public int CategoryID { get; set; }
+        public string OnSale { get; set;  }
         public int StockLevel { get; set; }
     }
 }
